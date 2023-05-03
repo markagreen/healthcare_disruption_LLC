@@ -11,5 +11,6 @@ The folder here contains all of the R scripts used for generating the analyses p
 * sensitivity_analysis.R - runs the sensitivity analysis for models only considering events after the last survey date which are presented in the appendix of the paper. Is called from analyses.R.
 * sensitivity_survival.R - script fits a cox regression model to analyse time to hospitalisation as a sensitivity analysis. Is called from analyses.R.
 * revised_analyses.R - script that runs all additional analyses that were requested after the first round of paper revisions. The script is standalone.
+* create_plots_for_paper.R - script creates the two figures that appear in the revised paper. The script is standalone.
 
 The workflow involves two stages: (i) Run clean_cohorts.R first, followed by comorbidity_scores.R and clean_hes.R to complete the data cleaning stage. (ii) Run analyses.R to generate all of the results in the paper and appendices, followed by revised_analyses.R for additional things as part of the review process.
